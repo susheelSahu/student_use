@@ -1,2 +1,3 @@
-# student_use
-just_doing something
+# coding ninjass  palindromw solution
+just_doing something productive
+
