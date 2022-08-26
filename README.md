@@ -26,6 +26,17 @@ Sample Output 1:
 1 
 
 
+
+
+
+
+
+
+
+
+
+
+
 code;;.............
 #include <iostream>
 #include<queue>
@@ -49,15 +60,10 @@ void helper(int**adj, bool*&visited,int n,int start){
                 q.push(i);
                 visited[i]=true;
             }
-        }
-        
-    }
-    
+        }    
+    } 
  return ;   
 }
-
-
-
 int main() {
     int n;
     int e;
@@ -77,8 +83,7 @@ int main() {
     }
     bool *visited=new bool[n];
     for(int i=0;i<n;i++){
-        visited[i]=false;
-        
+        visited[i]=false;   
     }
     int island=0;
     for(int i=0;i<n;i++){
